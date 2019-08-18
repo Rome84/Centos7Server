@@ -67,7 +67,7 @@ Vagrant.configure("2") do |config|
    sudo echo "192.168.33.55 node55.example.com node55" >>/etc/hosts
    sudo echo "node55.example.com" >/etc/hostname
    sudo init 6
-  #   yum update
+  #   apt-get update
   #   yum install -y httpd
    SHELL
 end
